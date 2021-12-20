@@ -1,0 +1,364 @@
+.body {
+	margin: 0px;
+	}
+.wrapper{
+		width:100%;
+		height:260vh;
+background:  #ead2a8 ;
+}
+.navigation{
+	
+		background-color:#2c292f;
+		width:100%;
+		height:110px;
+		font-family:none;
+		font-size: none;
+		/*border-radius:10px;*/
+}
+	.leftnav{
+		float: left;
+		width: 19%;
+		height: 110px;
+		outline-style: none;
+		
+	}
+	.centernav{
+		float: left;
+		text-align: center;
+		width:61%;
+		outline-style: none;
+		height:110px;
+		
+	}
+	.rightnav{
+		float: right;
+		outline-style: none;
+		width: 20%;
+		height:110px;
+
+	}
+.nav{
+	margin-right: 10px;
+}
+	li.a{
+		margin-top: 30px;
+	 display: inline-block;
+		padding: 8px;
+		font-family: "Lucida Handwriting","Brush Script MT", cursive;
+
+	}
+	li.a a:link, a:visited {
+	  
+	  color:white;
+	  padding: 10px 8px;
+	  text-align:center ;
+	  text-decoration: none;
+	  
+	}
+
+
+	li.a a:hover, a:active {
+	  color:#65909A;
+	}
+
+	.home{
+		display: block;
+		max-width: 150px;
+		margin-top: 36px;
+		margin-left:auto;
+		margin-right: auto;
+		object-fit: contain;
+	}
+	.shop{
+		max-width:40px;
+		display: block;
+		margin-top:33px;
+		margin-left: auto;
+		margin-right: auto;
+		
+	}
+.banner{
+	width: 100%;
+	height: 55vh;
+	margin-top: 10vh;
+}
+.bannerin{
+	opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+	width:90%;
+	height:400px;
+	margin-left:auto;
+	margin-right:auto;
+	/*margin:25px 10px 10px 6px;*/
+	border-radius: 10px;
+	outline-style: ;
+}
+.middleshop {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.banner:hover .banner {
+  opacity: 0.3;
+}
+.banner:hover .middleshop {
+  opacity: 1;
+}
+
+.shoptext {
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+.textline{
+	font-size:20px;
+	float:;
+	width:60%;
+	height:20px;
+	margin: 20px 5px 5px 250px;
+	padding:5px 5px 5px 5px;
+	outline-style: ;
+}
+.products{
+	outline-style: none ;
+	width:100%;
+	height: 151vh;
+	margin-top: 25px;
+}
+
+.product1{
+	float: left;
+	width: 33.3%;
+	height: 650px;
+	outline-style: none;
+}
+
+.product2{
+	float: left;
+	width: 33.3%;
+	height: 650px;
+}
+
+.product3{
+	float: left;
+	width: 33.3%;
+	height: 650px;
+}
+
+.product{
+	display: block;
+	border-radius: 5%;
+	width: 400px;
+	padding-left: 0px;
+	height: 640px;  
+	margin-left:auto;
+	margin-right: auto;
+}
+
+.links{
+	float: left;
+
+}
+/*about us*/
+.contentab{
+	width: 100%;
+	height: 200vh;
+}
+
+
+/* Contacts*/
+.maplayout{
+	width:100%;
+}
+.map{
+
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+
+}
+
+.map iframe{
+    left:10%;
+    top:10%;
+    height:80%;
+    width:80%;
+    position:absolute;	
+}
+
+.businessmsg
+{
+	width:100%;		
+	color:white;
+}
+
+.form
+{
+	background: linear-gradient(0deg, #765555 0%, #80b8ee 100%);
+  /*background-image: linear-gradient(180deg, #1b9cec, #0e0ca6, #05044c);*/
+	width:50%;
+	border-radius:5px;
+	padding:20px;
+	margin: 20px auto;
+	font-family:arial;
+	font-size:16px;
+	line-height:10px;
+	
+}
+
+input[type=text]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius:5px;
+  border:0px !important;
+  outline-style:none;
+  
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  resize: none;
+  outline-style:none;
+}
+
+input[type=button]{
+  width:100%;
+  background-color: #Ecf3ee;
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size:16px;
+  font-weight:bold;
+}
+
+.con{
+	
+	font-family: arial;
+	font-size: 20px;
+	margin-left; 0px;
+}
+h2.b{
+  display:inline-block;
+  margin-left:auto;
+  margin-right: auto;
+  padding:0px;
+}
+h2.b a:link, a:visited {
+  color:white;
+  padding: 0px 0px;
+  text-align: center-left;
+  text-decoration: none;
+  
+}
+
+h2.b a:hover, a:active {
+  color:#65909A;
+}
+
+/*Products*/
+.mid{
+	width: 100%;
+	height: 217vh;
+	outline-style: none;
+}
+.sidenav {
+  height: 999px;
+  width: 295px;
+  float: left;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  outline-style:none;
+  background-color: transparent;
+  overflow-x: hidden;
+  margin-left: 0px;
+}
+.sidenavcon{
+	 
+	margin-left: none;
+	background-color: none;
+	font-size: 35px;
+	font-family: "Lucida Handwriting","Brush Script MT", cursive;
+	padding-top: 10px;
+}
+.box1{
+	border-radius:10px ;
+	outline-style: none;
+	margin-left: 1px;
+	margin-top:15px;
+/*	background-color: #4899FF;*/
+	background-color: #161627;
+}
+.box2{
+	border-radius: 10px;
+	outline-style: none;
+	margin-left: 1px;
+	margin-top:15px;
+/*	background-color: #4899FF;*/
+	background-color: #161627;
+}
+.box3{
+	border-radius: 10px;
+	outline-style: none;
+	margin-left:1px;
+	margin-top:15px;
+/*	background-color: #4899FF;*/
+	background-color: #161627;
+}
+.box4{
+	border-radius: 10px;
+	outline-style: none;
+	margin-left: 1px;
+	margin-top:15px;
+/*	background-color: #4899FF;*/
+	background-color: #161627;
+}
+
+.sidenav a {
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+  font-style: arial;
+}
+.content {
+	display:auto;
+  margin-left: auto;
+  margin-right: auto;
+  /*padding-left: 2.5%*/
+  outline-style:none;
+  float: right;
+  height:65.7%;
+  width: 73%;
+}
+.productmain{
+	display: block;
+	border-radius: 10px;
+	float: right;
+	margin-right: 33px;
+	margin-top:50px;
+  width: 290px;
+  height: 280px; 
+box-shadow: 0px 0px 9px 0px #000;
+}
