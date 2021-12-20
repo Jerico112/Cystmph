@@ -17,7 +17,7 @@ background:  #ead2a8 ;
 }
 	.leftnav{
 		float: left;
-		width: 19%;
+		width: 20%;
 		height: 110px;
 		outline-style: none;
 		
@@ -25,7 +25,7 @@ background:  #ead2a8 ;
 	.centernav{
 		float: left;
 		text-align: center;
-		width:61%;
+		width:60%;
 		outline-style: none;
 		height:110px;
 		
